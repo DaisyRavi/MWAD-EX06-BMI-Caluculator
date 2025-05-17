@@ -1,0 +1,66 @@
+/* App.css */
+
+body {
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 28rem; /* Equivalent to Tailwind's max-w-md */
+  margin: 2.5rem auto; /* mt-10 */
+  padding: 1.5rem; /* p-6 */
+  background-color: #ffffff;
+  border-radius: 1rem; /* rounded-2xl */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* shadow-md */
+}
+
+.title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.25rem; /* mb-1 */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem; /* p-2 */
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.button {
+  width: 100%;
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2563eb; /* blue-600 */
+}
+
+.result {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f3f4f6; /* gray-100 */
+  border-radius: 0.5rem;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ef4444; /* red-500 */
+}
